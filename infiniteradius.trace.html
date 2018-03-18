@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--script links-->
+    <link rel="stylesheet" type="text/css" href="infiniteradius.css">
+    <script src="jquery.js"></script>
+    <script src="rad.js"></script>
+    <script src="send_form_email.php"></script>
+    <!--housekeeping-->
+    <meta charset="utf-8">
+    <title>INFINITE RADIUS</title>
+    <!--typefaces-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:500i" rel="stylesheet">
+</head>
+    
+<body>
+<div class="pullout">
+    <div id="un">
+      <a href="index.html" onclick="openUp()"><div class="pulloutitem">home</div></a>
+    </div>
+    <div id="deux">
+      <a href="index.html#work" onclick="openUp()"><div class="pulloutitem">work</div></a>
+    </div>
+    <div id="troix">
+      <a href="index.html#about" onclick="openUp()"><div class="pulloutitem" >about</div></a>
+    </div>
+  </div>
+   <div class="head">
+     <button id="menu" onclick="openUp()">
+       <svg id="menuline" class="ment" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 150 150">
+          <defs>
+            <style>.cls-5{fill:lime;}</style>
+          </defs>
+         <path class="cls-5" class="top" d="M176,53.5H23a5,5,0,0,1,0-10H176a5,5,0,0,1,0,10Z" transform="translate(-18 -43.5)"/>
+         <path class="cls-5" class="mid" d="M176,103.5H23a5,5,0,0,1,0-10H176a5,5,0,0,1,0,10Z" transform="translate(-18 -43.5)"/>
+         <path class="cls-5" class="bottom" d="M176,154H23a5,5,0,0,1,0-10H176a5,5,0,0,1,0,10Z" transform="translate(-18 -43.5)"/>
+       </svg>
+     </button>
+   </div>
+  
+   <div class="spent">
+    <p class="info">Trace</p>
+  </div>
+
+  <div class="greenin" id="comon">  
+  <div class="sectiontitle" class="showy">
+    <h2>Trace</h2>
+  </div>
+  
+     <div class="contain" class="shine">
+       <div class="col">
+          <p>
+            This project came about from research regarding the
+Equifax data breach. Not only did I want to know how this
+had happened, I wanted to know where the stolen data was
+and how it was being used. I decided to propose a premium
+market place in which the stolen identities were traded,
+both as a way to highlight the fact that this information is
+now widely available and to shame equifax for their negligence.
+My goal was to develop a javascript program that
+would take personal information, such as drivers licenses
+numbers and social security numbers and to transform this
+data into a secure digital fingerprint that could be used to
+represent the identities for sale.
+          </p>
+        </div>
+      <img src="IMAGES/trace.jpg" class="showcase">
+    </div>
+  </div>
+  
+  <div class="footer"> 
+    <div class="leftfoot">
+      <div class="copyright"><p class="bottom"><span class="mono">© Calvin Hutcheon </span><br/><br/><br/>All contents of this page are copyrighted by Calvin Hutcheon. However, if you want to steal the code or get inspired by an idea, please, go for it! This disclaimer is to protect me from corporate thievery, rather than to discourage the collaborative and communal process of design</p></div>
+    </div>
+    <div class="middlefoot"></div>
+    <div class="rightfoot">
+      <div class="intergraph">
+        <div class="svg"></div>
+        <p class="bottom"><span class="green">*</span>a striaght line is the circumference of a circle with an infinite radius. </p>
+      </div>
+      <div class="getsocial">
+
+   <a href="https://www.are.na/calvin-hutcheon"> <div class="socialicon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 150.38 88.986">
+            <path class="fun" d="M148.93 62.356l-20.847-16.384c-1.276-1-1.276-2.642 0-3.645l20.848-16.38c1.28-1.002 1.815-2.695 1.19-3.76-.626-1.062-2.374-1.44-3.88-.84l-24.79 9.874c-1.507.606-2.927-.22-3.153-1.83L114.57 2.926C114.34 1.317 113.13 0 111.877 0c-1.247 0-2.456 1.317-2.68 2.925l-3.73 26.467c-.228 1.61-1.646 2.434-3.155 1.83l-24.38-9.71c-1.512-.602-3.975-.602-5.483 0l-24.384 9.71c-1.508.604-2.928-.22-3.154-1.83L41.186 2.925C40.956 1.317 39.748 0 38.5 0c-1.252 0-2.463 1.317-2.688 2.925l-3.73 26.467c-.226 1.61-1.645 2.434-3.153 1.83L4.14 21.35c-1.507-.603-3.252-.223-3.878.838-.625 1.066-.092 2.76 1.184 3.76l20.85 16.38c1.277 1.003 1.277 2.645 0 3.646L1.446 62.356C.166 63.358-.364 65.152.26 66.34c.627 1.19 2.372 1.668 3.877 1.064l24.567-9.866c1.51-.603 2.914.218 3.125 1.828l3.544 26.696c.214 1.607 1.618 2.923 3.12 2.923 1.5 0 2.905-1.315 3.12-2.923l3.55-26.696c.21-1.61 1.62-2.43 3.122-1.828l24.164 9.698c1.506.606 3.97.606 5.477 0l24.16-9.698c1.504-.603 2.91.218 3.125 1.828l3.55 26.696c.212 1.607 1.617 2.923 3.115 2.923 1.502 0 2.907-1.315 3.12-2.923l3.55-26.696c.216-1.61 1.62-2.43 3.124-1.828l24.57 9.866c1.5.604 3.25.125 3.876-1.063.627-1.186.094-2.98-1.185-3.982zM95.89 46.18L77.53 60.315c-1.285.99-3.393.99-4.674 0L54.49 46.18c-1.284-.99-1.294-2.62-.02-3.625l18.4-14.493c1.274-1.005 3.363-1.005 4.638 0l18.4 14.493c1.277 1.004 1.267 2.634-.02 3.626z"></path>
+            </svg>
+        </div></a>
+  
+<a href="https://twitter.com/millennialglyph"><div class="socialicon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 400 400"><defs><style>.cls-1{fill:none;}.cls-2{fill:#12100E;}</style></defs><title>Twitter_Logo_Blue</title><rect class="cls-1" width="100" height="100"/><path class="fun" class="cls-2" d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23"/></svg>
+  </div></a>
+      
+<a href="https://medium.com/@millennialglyph"><div class="socialicon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 195 195">
+          <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+            <g id="Monogram" fill-rule="nonzero">
+                <rect class="fun" id="Rectangle-path" fill="#12100E" x="0" y="0" width="195" height="195"></rect>
+                <path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" id="Shape" fill="#e6e6e6"></path>
+            </g>
+        </g>
+    </svg>
+  </div></a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
