@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--hey world-->
     <!--script links-->
     <link rel="stylesheet" type="text/css" href="infiniteradius.css">
     <script src="jquery.js"></script>
@@ -15,8 +14,7 @@
 </head>
     
 <body>
-  <div class="landing" id="homey">
-  <div class="pullout">
+<div class="pullout">
     <div id="un">
       <a href="index.html" onclick="openUp()"><div class="pulloutitem">home</div></a>
     </div>
@@ -39,149 +37,41 @@
        </svg>
      </button>
    </div>
-   <div class="title">
-     <div class="centertile">
-       <div id="name">
-         <h1>
-           Calvin Hutcheon
-         </h1>
-       </div>
-       <div class="graph" id="headed">
-         <div class="svg"></div>
-       </div>
-       <div id="lineleft"></div>
-    <div id="lineright"></div>
-       <div class="intersection">
-         <p>
-           design at the intersection of speculative and actionable<span class="green">*</span>
-         </p>
-         
-       </div>
-       <div class="asterix">
-         <h4>
-           I bring data, content, graphics, and interface together to tell stories!
-         </h4>
-       </div>
-     </div>
-    
-   </div>
-    
-  </div>
-  <div class="sectionhead" id="work">
-    <p class="info">work</p>
-  </div>
-  <div class="contain">
-   <div class="sectiontitle">
-    <h2>My work</h2>
-    </div>
-    <a href="rinfiniteradious.rhizome.html"><div class="content" id="rhizome">RHIZOME</div></a>
-      <div class="gutter"></div>
-      <a href="https://medium.com/@millennialglyph/mnangagwa-is-sworn-in-as-president-of-zimbabwe-amidst-uncertainty-f369cbcf3ded"><div class="content" id="zim">ZIMBABWE'S COUP</div></a>
-      <a href="infiniteradius.trace.html"><div class="content" id="trace">Trace</div></a>
-      <div class="gutter"></div>
-      <a href="infiniteradius.sabotage.html"><div class="content" id="sabotage">SABOTAGE TYPECON</div></a>
-      <a href="https://medium.com/@millennialglyph/march-of-the-juggalos-a-day-in-portraits-64abafeff321"><div class="content" id="jugallo">MARCH OF THE JUGALLOS</div></a>
-      <div class="gutter"></div>
-      <a href="infiniteradius.kmichi.html"><div class="content" id="kimchi">THE POWER AND POLITICS OF KIMCHI</div></a>
-  </div>
-  <div class="contain" id="expand"> 
-    <a href="infiniteradius.bikelanes.html"><div class="contenttwo">
-            BIKE LANES
-        </div></a>
-    <div class="gutter"></div>
-    <div class="contenttwo"></div>
-  </div>
   
-  <div class="buttonwrap">
-    <button id="showmorework" onclick="moreWork()">more work</button>
+   <div class="spent">
+    <p class="info">Trace</p>
   </div>
-  <div class="sectionhead" id="about">
-    <p class="info">about</p>
+
+  <div class="greenin" id="comon">  
+  
+  
+     <div class="contain" class="shine">
+      <div class="sectiontitle" class="showy">
+    <h2>Trace</h2>
   </div>
-  <div class="contain">
-      <div class="aboutme">
-        <div class="sectiontitle">
-        </div>
-        <div class="lefty">
-         <div class="makeroom">
-          d
-         </div>
-          <div class="portrait">
-            <img src="IMAGES/headshot.jpg" class="headshot" alt="A picture of Calvin's face emerging from an evergreen shrub">
-          </div>
-        </div>
-        <div class="righty" id="itscalvin">
-         <div class="meabout">
-          <h2>Hi, I'm Calvin!</h2>
+       <div class="col">
           <p>
-          <span class="sub">design / writing / speculation  </span>
-      <br/>
-       <br/>
-      I believe design is a global practice. It cannot remain isolated in the studio, but instead must find its place within a broader discourse, alongside journalism, academia and advertising. As such, It’s not enough for design to address current events. Rather, design must insert itself into the action, in order to document, analyze and perhaps even to influence.
-      
-      
-      I’m interested in how data, content, graphics, and interface come together to tell stories. I take a multidisciplinary approach to my practice, valuing risk and experimentation–using every opportunity to force my practice into conversation with world events.  
+            This project came about from research regarding the
+Equifax data breach. Not only did I want to know how this
+had happened, I wanted to know where the stolen data was
+and how it was being used. I decided to propose a premium
+market place in which the stolen identities were traded,
+both as a way to highlight the fact that this information is
+now widely available and to shame equifax for their negligence.
+My goal was to develop a javascript program that
+would take personal information, such as drivers licenses
+numbers and social security numbers and to transform this
+data into a secure digital fingerprint that could be used to
+represent the identities for sale.
           </p>
-         </div>
-          
         </div>
-      </div>
-  </div>
-  
-  <div class="sectionhead" id="contact">
-    <p class="info">contact</p>
-  </div>
-  
-  <div class="contain">
-      <div class="getintouch" id="star">
-        <div class="sectiontitle">
-        <h2>Say Hi!</h2>
-        </div>
-        <div class="lefty">
-           <div class="holla">
-             <p>
-               Interested in working with me? Have questions? Want to know how I did something? I’d love to hear from you. Let’s talk about freelancing, or jump into a conversation about aesthetics and the infrastructure of communication. Are you working towards a worthy cause? Get in touch. I’m interested in donating time to interesting projects that have the potential to do good! Don’t be afraid to ask. I won’t bite. 
-             </p>
-           </div>
-        </div>
-        <div class="righty">
-          <form class="pita" name="contactform" method="post" action="send_form_email.php">
-              <table width="450px">
-             
-               
-                <label for="first_name">First Name</label>
-                   <br/>
-                <input  type="text" name="first_name" maxlength="50" cols="45%">
-               
-           
-              
-                <label for="last_name">Last Name</label>
-                   <br/>
-                   <br/>
-                <input  type="text" name="last_name" maxlength="50" cols="45%">
-              
-              
-                <label for="email">Email Address</label>
-                   <br/>
-                <input  type="text" name="email" maxlength="100">
-              
-              
-               <label for="comments">Message</label>
-               <br/>
-                <textarea  name="comments" maxlength="1000" cols="45%" rows="9"></textarea>
-              
-             
-                <input type="submit" value="Submit" id="sendoff">
-            
-              </table>
-              </form>
-        </div>
-      </div>
+      <img src="IMAGES/trace.jpg" class="showcase">
+    </div>
   </div>
   
   <div class="footer"> 
     <div class="leftfoot">
-      <div class="copyright"><p class="bottom"><span class="mono">© 2018 Calvin Hutcheon </span><br/><br/><br/>All contents of this page are copyrighted by Calvin Hutcheon. However, if you want to steal the code or get inspired by an idea, please, go for it! This disclaimer is to protect me from corporate thievery, rather than to discourage the collaborative and communal process of design.</p></div>
+      <div class="copyright"><p class="bottom"><span class="mono">© 2018 Calvin Hutcheon </span><br/><br/><br/>All contents of this page are copyrighted by Calvin Hutcheon. However, if you want to steal the code or get inspired by an idea, please, go for it! This disclaimer is to protect me from corporate thievery, rather than to discourage the collaborative and communal process of design</p></div>
     </div>
     <div class="middlefoot"></div>
     <div class="rightfoot">
@@ -215,8 +105,6 @@
       </div>
     </div>
   </div>
- 
-
 
 </body>
 </html>

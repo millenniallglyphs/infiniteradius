@@ -197,7 +197,7 @@ margin-left: 0;
 .head {
   top: 0;
   width: 100%;
-  height: 2em;
+  height: 70px;
   padding-top: 2.5vh;
   padding-right: 5%;
   padding-left: 5%;
@@ -209,10 +209,12 @@ margin-left: 0;
 
 #menu {
   position: fixed;
+    top: 18px;
   right: 5%;
-  height: 2em;
-  width: 2em;
+  height: 0px;
+  width: 0px;
   z-index: 2;
+    
 }
 
 .ment {
@@ -615,18 +617,17 @@ h4 {
 
 .getsocial {
   clear: both;
-  width: 40%;
-  margin-left: 33%;
-  padding: auto;
+    display: block;
+  width: 110px;
+  margin-left: 0px;
   font-family: "menlo", monospace;
-  padding-bottom: 6vh;
 }
   
 .socialicon {
   margin-top: 2px;
   clear: both; 
-  display: inline-flex;
-  width: 30px;
+  display: block;
+  width: 25px;
   margin: auto;
   padding: auto;
 }
@@ -778,7 +779,7 @@ margin-left: 0;
 }
 
 .pulloutitem {
-  margin-top: 12em;
+  margin-top: 45vh;
   text-align: center;
   font-family: "Menlo", monospace;
   font-size: 24px;
