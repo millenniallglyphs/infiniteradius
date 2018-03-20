@@ -141,10 +141,11 @@ input {
 }
 
 .sectiontitle {
-  column-width: 100%;
+    float: left;
+  width: 100%;
   margin-top: 10%;
   margin-bottom: 5%;
-  margin-left: 5%;
+margin-left: 0;
 }
 
 
@@ -240,8 +241,8 @@ input {
 
 
 @keyframes zoom {
-    from {background-size: 600px;}
-    to {background-size: 820px;}
+    from {background-size: 100%;}
+    to {background-size: 130%;}
 }
 
 .content:hover {
@@ -306,7 +307,7 @@ input {
 }
 
 #rhizome {
-  background-image: url(IMAGES/Screen%20Shot%202018-03-17%20at%201.17.18%20AM.png);
+  background-image: url(IMAGES/rhizome%20landing.png);
 }
 
 #zim {
@@ -524,11 +525,9 @@ h4 {
   /*work styling*/
   
     .contain {
-    float:left;
-    width: 100%;
-    height: auto;
-    padding-left: 5%;
-    padding-right: 5%;
+    display: block;
+    max-width: 90%;
+    margin-left: 5%; 
 }
   
 .gutter {
@@ -542,7 +541,7 @@ h4 {
   height: 300px;
   background-color: #202120;
   background-position: center;
-  background-size: 600px;
+  background-size: 100%;
   display: inline-block;
   margin-top: 4vh;
   padding-left: 2%;
@@ -724,11 +723,11 @@ h4 {
 }
 
 .sectiontitle {
-  column-width: 100%;
-  margin-top: 18vh;
-  margin-top: 18vh;
+  float: left;
+  width: 100%;
+  margin-top: 10%;
   margin-bottom: 5%;
-  margin-left: 5%;
+margin-left: 0;
 }
   
 .spent {
@@ -789,11 +788,9 @@ h4 {
   /*work styling*/
   
     .contain {
-    width: 100%;
-    height: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: auto;
+    display: block;
+    width: 95%;
+    margin-left: 5%; 
 }
   
 .gutter {
@@ -808,7 +805,7 @@ h4 {
   height: 300px;
   background-color: #202120;
   background-position: center;
-  background-size: 600px;
+  background-size: 100%;
   display: inline-block;
   margin-top: 4vh;
   width: 48.5%;
@@ -904,10 +901,9 @@ h4 {
 @media screen and (min-width:80em) {
   
   .contain {
-    float:left;
-    width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
+    display: block;
+    max-width: 1400px;
+    margin: auto; 
 }  
   
 }
