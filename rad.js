@@ -8,6 +8,7 @@ $(document).ready(function(){
   $(".pullout").css("height", testo);
   $(".pullout").css("width", "0%");
   $(".head").css("position", "fixed");
+  $(".contenttwo").css("height", "0px"); 
 });
 
 function openUp() {

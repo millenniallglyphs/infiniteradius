@@ -205,6 +205,7 @@ margin-left: 0;
   background-color: white;
   border-bottom: 1px solid #e6e6e6;
   z-index: 2;
+  transition: 1s;
 }
 
 #menu {
@@ -247,7 +248,7 @@ margin-left: 0;
     to {background-size: 130%;}
 }
 
-.content:hover {
+[class*=content]:hover {
   background-blend-mode:difference;
   outline: 3px solid #00ff00;
   animation-name: zoom;
@@ -258,12 +259,10 @@ margin-left: 0;
   transition: 2s;
 }
 
-.contenttwo {
-  height: 0px;
-  background-color: aqua;
-}
+
 
 .contenttwo:first-of-type {
+  float: left;
 
   
 }
@@ -284,17 +283,16 @@ margin-left: 0;
   clear: both;
   margin: auto;
   width: 200px;
-  margin-top: 12vw;
-  margin-bottom: 2em;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
 }
 
 #showmorework {
   outline: 2px solid #00ff00;
   padding: 16px;
   width: 200px;
-  margin-top: 8vh;
+  margin-top: 4vh;
   margin-bottom: 14vh;
-  top: 2em;
   background: none;
   font-family: "Menlo", monospace;
   color: #00ff00;
@@ -330,6 +328,10 @@ margin-left: 0;
 
 #kimchi {
   background-image: url(IMAGES/kimchi1%20copy.jpg);
+}
+
+#bikelane {
+  background-image: url(IMAGES/bikecover);
 }
 
 .holla {
@@ -533,12 +535,12 @@ h4 {
 }
   
 .gutter {
-  display: none;
-  width: 0%;
+  display: inline-block;
+  width: 20px;
 }
 
 
-[class~=content] {
+[class*=content] {
   width: 100%;
   height: 300px;
   background-color: #202120;
@@ -552,6 +554,11 @@ h4 {
   color: transparent;
   font-size: 18px;
   
+}
+  
+.contenttwo {
+  height: 0px;
+  background-color: aqua;
 }  
   
 .lefty{
@@ -796,13 +803,18 @@ margin-left: 0;
   
 .gutter {
   display: inline-block;
-  width: 2%;
-  margin-top: 4vh;
+  width: 20px;
 }
 
+.contenttwo {
+  height: 0px;
+  background-color: aqua;
+  top: 0px;
+  display: inline-block;
+} 
 
-[class~=content] {
-  width: 100%;
+
+[class*=content] {
   height: 300px;
   background-color: #202120;
   background-position: center;
@@ -814,9 +826,13 @@ margin-left: 0;
   padding-top: 2%;
   font-family: "Menlo", monospace;
   color: transparent;
-  font-size: 18px;
+  font-size: 18px; 
   
 }
+  
+ 
+  
+  
 .lefty{
   width: 48%;
   display: inline-flex;
