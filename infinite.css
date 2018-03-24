@@ -11,12 +11,55 @@ ul, li, p, html, body, h3, form {
 body {
   background-color: #e6e6e6;
 }
+
+p {
+  font-size: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .whole {
   position: fixed;
   background-color: red;
   height: 100vh;
   width: 200%;
 }
+
+#circone {
+  position: absolute;
+  top: 5px;
+  width: 40px;
+  left: 48.5%;
+
+}
+
+#circtwo {
+  position: absolute;
+  top: 5px;
+  left: 49.5%;
+  width: 40px;
+  margin: auto;
+ 
+}
+
+#glob:hover *hidden {
+  background-color: red;
+  height: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+
 
 .header {
   position: fixed;
@@ -29,16 +72,18 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 2;
+  height: 57px;
 }
 
 .home {
   width: 33%
-  
 }
 
 .nav {
   width: 33%;
   text-align-last: center;
+  margin: auto;
+  background-color: red;
 }
 
 .about {
@@ -48,6 +93,7 @@ body {
 
 .contain {
   width: 95%;
+  max-width: 1500px;
   margin: auto;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
@@ -70,14 +116,14 @@ body {
   margin-top: 13vh;
   font-family: "Ubuntu", sans-serif;
   color: #e6e6e6;
+  font-size: 40px;
 }
 
 .graph {
   margin: auto;
   width: 100px;
-  height: 100px;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  height: 0px;
+  font-family: "Maven Pro", sans-serif;
 }
 
 #headed {
@@ -88,6 +134,7 @@ body {
   margin: auto;
   width: 60%;
   margin-bottom: 2%;
+  color: #00ff00;
 }
 
 .asterix {
@@ -95,22 +142,24 @@ body {
   width: 80%;
   margin-top: 4%;
   margin-bottom: 2%;
+  font-family: "Menlo", monospace;
+  font-size: 24px;
 }
 
 #lineleft {
-  width: 15%;
-  border-top: 2px solid #333333;
+  width: 30%;
+  border-top: 2px solid #00ff00;
   position: relative;
   top: 12px;
   left: 0px;
 }
 
 #lineright {
-  width: 15%;
-  border-top: 2px solid #333333;
+  width: 30%;
+  border-top: 2px solid #00ff00;
   position: relative;
   top: 12px;
-  margin-left: 85%;
+  margin-left: 70%;
 }
 
 .intersections {
@@ -159,12 +208,26 @@ body {
   grid-gap: 2.5%;
 }
 
+@keyframes zoom {
+    from {background-size: 100%;}
+    to {background-size: 130%;}
+}
+
 .broad {
   height: 300px;
-  background-size: 800px;
+  background-size: 100%;
   background-position: center;
   border-bottom: 2px solid #00ff00;
+  background-repeat: no-repeat;
 }
+
+.broad:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
 
 .work {
   border: 2px solid red;
@@ -184,11 +247,28 @@ body {
 }
 
 #rhiz {
-  background-image: url(IMAGES/rhizome%20landing.png);
+  background-image: url(IMAGES/Rhizome_Cover.jpg);
 }
 
 #zim {
-  background-image: url(IMAGES/Screen%20Shot%202018-03-17%20at%201.19.03%20AM.png)
+  background-image: url(IMAGES/Zim_cover.png);
+}
+
+#trace{
+  background-image: url(IMAGES/Trace_Cover.jpg);
+}
+
+#jug {
+  background-image: url(IMAGES/Juggalo_Cover.jpg);
+}
+
+#sab {
+  background-image: url(IMAGES/Sabotage_Cover.jpg);
+  background-position: bottom;
+}
+
+#kim {
+  background-image: url(IMAGES/Kimchi_Cover.jpg);
 }
 
 .aboutme {
@@ -197,7 +277,22 @@ body {
   grid-gap: 2.5%;
   background-color: white;
   border: 2px solid #00ff00;
-  padding: 1.5%;
+}
+
+.lefty {
+  padding: 2.5%;
+}
+
+.righty {
+  border-left: 2px solid #00ff00;
+}
+
+.meabout {
+}
+
+.yeshi {
+  padding: 2.5%;
+  border-bottom: 2px solid #00ff00;
 }
 
 @media screen and (min-width:20em) {
@@ -234,6 +329,7 @@ body {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   border-bottom: 80px solid black;
+  font-size: 12px;
   
 }
 
@@ -249,7 +345,7 @@ body {
 
 .rightfoot {
   background-color: #e6e6e6;
-  display: inline-flex;
+  display: block;
   clear: none;
 }
   
@@ -261,19 +357,50 @@ body {
 }
 
 .intergraph {
+  margin-top: 60px;
   width: 50%;
   padding-left: 5%;
   text-align: center;
 }
 
 .getsocial {
+  float: right;
   font-family: "menlo", monospace;
-  margin-right: 2.5%;
+  margin-right: 3.5%;
+  padding-right: 2.5%;
+  margin-top: -75px;
 }
   
 .socialicon {
-  margin-top: 5Vh;
-  width: 50px;
-  margin-right: 2.5%;
-  padding: auto;
+  margin-top: 2Vh;
+
+}
+
+.mono {
+  font-family: "Menlo", monospace;
+}
+
+.socialicon:hover * .fun {
+  fill: #00ff00;
+}
+
+#showmorework {
+  display: block;
+    outline: 2px solid #00ff00;
+    padding: 16px;
+    width: 200px;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    background: none;
+    font-family: "Menlo", monospace;
+    color: #00ff00;
+    font-size: 23px;
+}
+
+#showmorework:hover {
+  background-color: #00ff00;
+  color: white;
+  transition: 1s;
+  transform: scale(1.05);
 }
