@@ -93,3 +93,102 @@ h4 {
   margin-bottom: 200px;
   
 }
+
+.sumtop {
+  background-color: white;
+  padding: 2.5%;
+  border: 2px solid #00ff00;
+  margin-bottom: 2.5%;
+  clear: both;
+}
+
+.headed {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+.fingerprint {
+  width: 600px;
+}
+
+.bigger {
+  width: 600px;
+  margin: auto;
+  font-size: 80px;
+  font-family: "Menlo", monospace;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.process {
+  background-color: white;
+  padding: 2.5%;
+  border: 2px solid #00ff00;
+  margin-bottom: 2.5%;
+  display: grid;
+  grid-template-columns: 49.25% 48.25%;
+  grid-column-gap: 2.5%;
+  padding: 0%;
+}
+
+.connectdots {
+  width:95%;
+}
+
+.gridright {
+  border-left: 2px solid #00ff00;
+}
+
+.gridleft {
+  padding: 2.5%;
+}
+
+.holder {
+  padding: 2.5%;
+  margin-bottom: 8vh;
+}
+
+#inspo {
+  border-right: 2px solid #00ff00;
+  border-left: 0px;
+}
+
+.sketch {
+  margin-bottom: 4vh;
+  margin-top: 4vh;
+}
+
+#special {
+  border: 2px solid #00ff00;
+  margin-bottom: 2.5%;
+  background-color: white;
+  width: 49.25%;
+}
+
+.workings {
+  display: block;
+  margin: auto;
+  width: 95%;
+}
+
+.redline {
+  width: 100%;
+}
+
+#rightswing {
+  margin-left: 51.75%;
+  width: 48.25%;
+  background-color: white;
+  display: block;
+  border: 2px solid #00ff00;
+}
+
+#final {
+  margin-bottom: 2.5%;
+}
+
+#moveit {
+  margin-top: 2.5%;
+}
