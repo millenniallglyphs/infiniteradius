@@ -26,28 +26,3 @@ function openUp() {
   }
 console.log(num);
 }
-
-
-
-
-function moreWork() {
-  if (numa == 0){
-  $("#expand").css({"height": "auto", "visibility": "visible"});
-  $(".contenttwo").css("height", "300px");  
-  $("#showmorework").html("less work");  
-    
-  } else {
-  $("#expand").css({"height": "0", "visibility": "hidden"});
-  $(".contenttwo").css("height", "0px");  
-  $("#showmorework").html("more work"); 
-  }
-  numa++;
-  if (numa == 2) {
-    numa =0;
-  }
-}
-
-
-
-
-
