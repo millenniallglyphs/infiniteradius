@@ -33,31 +33,16 @@ a {
   width: 200%;
 }
 
-#circone {
-  position: absolute;
-  top: 5px;
-  width: 40px;
-  left: 48.5%;
-
-}
 
 #circtwo {
-  position: absolute;
+  display: block;
   top: 5px;
-  left: 49.5%;
-  width: 40px;
   margin: auto;
+    width: 74px;
+    
  
 }
 
-#glob:hover *hidden {
-  background-color: red;
-  height: 200px;
-}
-
-.hidden {
-  display: none;
-}
 
 
 
@@ -87,8 +72,7 @@ right: 0;
 .nav {
   width: 33%;
   text-align-last: center;
-  margin: auto;
-  background-color: red;
+
 }
 
 .homecall {
@@ -336,7 +320,7 @@ border-left: 2px solid #00ff00;
   width: 50%;
     height: auto;
     margin-top: 40px;
-  padding-left: 5%;
+  padding-left: 0%;
   text-align: center;
     margin: auto;
     
@@ -410,6 +394,10 @@ border-left: 2px solid #00ff00;
 
 #nudge {
     margin-top: 5%;
+}
+
+.alonzo {
+    padding: 2.5%;
 }
 
 /*20em*//*20em*//*20em*//*20em*//*20em*//*20em*//*20em*//*20em*//*20em*//*20em*//*20em*//*20em*/
@@ -559,6 +547,18 @@ border-left: 0px;
     
     }
     
+    #diminish {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 46px;
+    }
+    
+    h4 {
+        font-size: 22px;
+    }
+    
     
 }
 
@@ -646,12 +646,13 @@ border-left: 2px solid #00ff00;
 
 .intergraph {
     display: block;
-  width: 50%;
+    width: 50%;
     height: auto;
     margin-top: 40px;
-  padding-left: 5%;
   text-align: center;
     margin: auto;
+    margin-left: 25%;
+    padding-left: 0;
     
 }
 
@@ -708,6 +709,14 @@ border-left: 2px solid #00ff00;
   margin-left: 80%;
 }
     
+    #diminish {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 64px;
+    }
+    
 }
 
 /*60 em*//*60 em*//*60 em*//*60 em*//*60 em*//*60 em*//*60 em*//*60 em*//*60 em*//*60 em*//*60 em*/
@@ -753,7 +762,7 @@ border-left: 2px solid #00ff00;
   padding-bottom: 8vh;
 }
     #lineleft {
-  width: 22%;
+  width: 20%;
   border-top: 2px solid #00ff00;
   position: relative;
   top: 12px;
@@ -761,15 +770,20 @@ border-left: 2px solid #00ff00;
 }
 
 #lineright {
-  width: 22%;
+  width: 20%;
   border-top: 2px solid #00ff00;
   position: relative;
   top: 12px;
-  margin-left: 78%;
+  margin-left: 80%;
 }
     
     .portrait {
         float: left;
+    }
+    
+    #diminish {
+        display: inline-block;
+        clear: none;
     }
 }
 
@@ -794,3 +808,8 @@ border-left: 2px solid #00ff00;
   margin-left: 70%;
 }
 }
+
+/*menu*//*menu*//*menu*//*menu*//*menu*//*menu*//*menu*//*menu*//*menu*//*menu*//*menu*//*menu*/
+
+
+

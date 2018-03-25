@@ -115,7 +115,8 @@ p {
 .headed {
   display: block;
   margin: auto;
-  width: 600px;
+  width: 100%;
+    max-width: 600px;
 }
 
 .fingerprint {
@@ -123,7 +124,7 @@ p {
 }
 
 .bigger {
-  width: 600px;
+  width: 100%;
   margin: auto;
   font-size: 80px;
   font-family: "Menlo", monospace;
