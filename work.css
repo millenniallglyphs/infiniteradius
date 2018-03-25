@@ -17,20 +17,20 @@ p {
   clear: both;
   display: block;
   margin: auto;
-  width: 500px;
+  width: 100%;
   text-align: center;
   color: black;
 }
 
 .logotype {
-  width: 500px;
+  width: 96%;
 }
 
 .rhizome {
   display: block;
   margin: auto;
-  width: 500px;
-  margin-top: 200px;
+  width: 100%;
+  margin-top: 30vh;
 }
 
 .leftlean {
@@ -110,6 +110,7 @@ p {
   border: 2px solid #00ff00;
   margin-bottom: 2.5%;
   clear: both;
+  height: auto;
 }
 
 .headed {
@@ -117,6 +118,7 @@ p {
   margin: auto;
   width: 100%;
     max-width: 600px;
+  margin-top: 5vh;
 }
 
 .fingerprint {
@@ -242,6 +244,15 @@ grid-template-columns: 100%;
   width: 100%;
     
 }
+  
+  .gridright {
+  border-left: 0px;
+}
+  
+  #inspo {
+  border-right: 0px;
+  border-left: 0px;
+}
 }
 @media screen and (min-width: 40em){
     .process {
@@ -303,7 +314,16 @@ grid-template-columns: 50% auto;
     width: 100%;
     
 }
+  
+  .gridright {
+  border-left: 2px solid #00ff00; 
     
+}
+  
+  #inspo {
+  border-right: 2px solid #00ff00;
+  border-left: 0px;
+}
 }
 @media screen and (min-width: 80em){
     
