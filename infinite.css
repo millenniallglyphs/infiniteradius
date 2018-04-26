@@ -62,7 +62,7 @@ a {
 margin: auto; 
 left: 0;
 right: 0;
-    border-bottom: 2px solid #00ff00;
+    border-bottom: 2px solid black;
 }
 
 .home {
@@ -80,7 +80,7 @@ right: 0;
 }
 
 .homecall:hover {
-    color: #00ff00;
+    color: black;
     transition: 1s;
     font-size: 19px;
 }
@@ -107,13 +107,13 @@ right: 0;
   padding-top: 8vh;
   height: 89vh;
   background-color: white;
-  border: 2px solid #00ff00;
+  border: 2px solid black;
 }
 
 #name {
   margin: 5%;
   margin-top: 13vh;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'ubuntu', sans-serif;
   color: #e6e6e6;
   font-size: 40px;
 }
@@ -133,7 +133,7 @@ right: 0;
   margin: auto;
   width: 60%;
   margin-bottom: 2%;
-  color: #00ff00;
+  color: black;
 }
 
 .asterix {
@@ -154,23 +154,23 @@ right: 0;
   padding: 15px;
   background-color: white;
   width: 100%;
-  border: 2px solid #00ff00;
-  font-family: "Ubuntu", sans-serif;
+  border: 2px solid black;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
   color: #e6e6e6;
 }
 
 .sides {
-  border: 2px solid #00ff00;
+  border: 2px solid black;
   background-color: white;
   margin-bottom: 5%;
 }
 
 .tite {
   padding: 15px;
-  border-bottom: 2px solid #00ff00;
+  border-bottom: 2px solid black;
   font-family: 'Menlo', monospace;
-  color: #00ff00;
+  color: black;
   font-size: 24px;
 }
 
@@ -193,7 +193,7 @@ right: 0;
   height: 300px;
   background-size: 100%;
   background-position: center;
-  border-bottom: 2px solid #00ff00;
+  border-bottom: 2px solid black;
   background-repeat: no-repeat;
 }
 
@@ -221,6 +221,14 @@ right: 0;
   font-family: sans-serif;
   color: white;
     margin-top: 2%;
+}
+
+#market {
+  background-image: url(IMAGES/home-market.jpg);
+}
+
+#opent {
+  background-image: url(IMAGES/open-home.jpg);
 }
 
 #rhiz {
@@ -255,7 +263,7 @@ right: 0;
 }
 
 .righty {
-  border-left: 2px solid #00ff00;
+  border-left: 2px solid black;
 }
 
 .meabout {
@@ -263,7 +271,7 @@ right: 0;
 
 .yeshi {
   padding: 2.5%;
-  border-bottom: 2px solid #00ff00;
+  border-bottom: 2px solid black;
 }
 
 .headshot {
@@ -292,24 +300,25 @@ right: 0;
 
 
 .leftfoot {
-  background-color: #00ff00;
+  background-color: black;
   height: auto;
   display: inline-block;
     text-align: left;
+  color: white;
 }
 
 .middlefoot {
   display: inline-block;
     margin-left: 7.9%;
-    border-left: 2px solid #00ff00;
+    border-left: 2px solid black;
 }
 
 .rightfoot {
   background-color: #e6e6e6;
   display: block;
   clear: none;
-border-left: 2px solid #00ff00;
-    border-right: 2px solid #00ff00;
+border-left: 2px solid black;
+    border-right: 2px solid black;
     border-bottom: 0px;
     margin-top: 0px;
 }
@@ -345,7 +354,7 @@ border-left: 2px solid #00ff00;
     height: 28vh;
     padding-right: 5.5%;
     padding-left: 5.5%;
-   border-left: 2px solid #00ff00;
+   border-left: 2px solid black;
 }
 
 .getsocial {
@@ -368,12 +377,12 @@ border-left: 2px solid #00ff00;
 }
 
 .socialicon:hover * .fun {
-  fill: #00ff00;
+  fill: white;
 }
 
 #showmorework {
   display: block;
-    outline: 2px solid #00ff00;
+    outline: 2px solid black;
     padding: 16px;
     width: 200px;
     margin: auto;
@@ -381,12 +390,12 @@ border-left: 2px solid #00ff00;
     margin-bottom: 7vh;
     background: none;
     font-family: "Menlo", monospace;
-    color: #00ff00;
+    color: black;
     font-size: 23px;
 }
 
 #showmorework:hover {
-  background-color: #00ff00;
+  background-color: black;
   color: white;
   transition: 1s;
   transform: scale(1.05);
@@ -423,7 +432,7 @@ border-left: 2px solid #00ff00;
   grid-template-columns: 100%;
   grid-gap: 2.5%;
   background-color: white;
-  border: 2px solid #00ff00;
+  border: 2px solid black;
 }
     
     .holdme {
@@ -432,7 +441,7 @@ border-left: 2px solid #00ff00;
     margin: auto;
     display: grid;
      grid-template-columns: 100%;
-    border-top: 2px solid #00ff00;
+    border-top: 2px solid black;
     }
     
     .footer {
@@ -450,7 +459,7 @@ border-left: 2px solid #00ff00;
 
 
 .leftfoot {
-  background-color: #00ff00;
+  background-color: black;
   height: auto;
   display: inline-block;
     text-align: center;
@@ -468,7 +477,7 @@ border-left: 2px solid #00ff00;
   display: block;
   clear: none;
     margin-top: 40px;
-    border-top: 2px solid #00ff00;
+    border-top: 2px solid black;
 border-left: 0px;
     border-right: 0px;
 }
@@ -528,7 +537,7 @@ border-left: 0px;
     
 #lineleft {
   width: 15%;
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid black;
   position: relative;
   top: 12px;
   left: 0px;
@@ -536,7 +545,7 @@ border-left: 0px;
 
 #lineright {
   width: 15%;
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid black;
   position: relative;
   top: 12px;
   margin-left: 85%;
@@ -560,7 +569,7 @@ border-left: 0px;
     }
     
   .tite{
-    border-top: 0px solid #00ff00;
+    border-top: 0px solid black;
   }
   
   .righty {
@@ -592,7 +601,7 @@ border-left: 0px;
   grid-template-columns: 100%;
   grid-gap: 2.5%;
   background-color: white;
-  border: 2px solid #00ff00;
+  border: 2px solid black;
 }
  
     .holdme {
@@ -601,7 +610,7 @@ border-left: 0px;
     margin: auto;
     display: grid;
      grid-template-columns: 49.5% 25% 25.5%;
-    border-top: 2px solid #00ff00;
+    border-top: 2px solid black;
     }
     
     .footer {
@@ -620,7 +629,7 @@ border-left: 0px;
 
 
 .leftfoot {
-  background-color: #00ff00;
+  background-color: black;
   height: auto;
   display: inline-block;
     text-align: left;
@@ -629,15 +638,15 @@ border-left: 0px;
 .middlefoot {
   display: inline-block;
     margin-left: 7.9%;
-    border-left: 2px solid #00ff00;
+    border-left: 2px solid black;
 }
 
 .rightfoot {
   background-color: #e6e6e6;
   display: block;
   clear: none;
-border-left: 2px solid #00ff00;
-    border-right: 2px solid #00ff00;
+border-left: 2px solid black;
+    border-right: 2px solid black;
     border-bottom: 0px;
     margin-top: 0px;
     border-top: none;
@@ -682,7 +691,7 @@ border-left: 2px solid #00ff00;
     height: 28vh;
     padding-right: 5.5%;
     padding-left: 5.5%;
-   border-left: 2px solid #00ff00;
+   border-left: 2px solid black;
     width: auto;
 }
 
@@ -702,7 +711,7 @@ border-left: 2px solid #00ff00;
 }
     #lineleft {
   width: 20%;
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid black;
   position: relative;
   top: 12px;
   left: 0px;
@@ -710,7 +719,7 @@ border-left: 2px solid #00ff00;
 
 #lineright {
   width: 20%;
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid black;
   position: relative;
   top: 12px;
   margin-left: 80%;
@@ -751,7 +760,7 @@ border-left: 2px solid #00ff00;
   grid-template-columns: 49.25% 48.25%;
   grid-gap: 2.5%;
   background-color: white;
-  border: 2px solid #00ff00;
+  border: 2px solid black;
 }
     
     .holdme {
@@ -760,7 +769,7 @@ border-left: 2px solid #00ff00;
     margin: auto;
     display: grid;
      grid-template-columns: 49.5% 25% 25.5%;
-    border-top: 2px solid #00ff00;
+    border-top: 2px solid black;
     }
 
 .copyright {
@@ -772,7 +781,7 @@ border-left: 2px solid #00ff00;
 }
     #lineleft {
   width: 18%;
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid black;
   position: relative;
   top: 12px;
   left: 0px;
@@ -780,7 +789,7 @@ border-left: 2px solid #00ff00;
 
 #lineright {
   width: 18%;
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid black;
   position: relative;
   top: 12px;
   margin-left: 82%;
@@ -800,7 +809,7 @@ border-left: 2px solid #00ff00;
   }
   
     .righty {
-  border-left: 2px solid #00ff00;
+  border-left: 2px solid black;
 }
 }
 
@@ -811,7 +820,7 @@ border-left: 2px solid #00ff00;
     
         #lineleft {
   width: 30%;
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid black;
   position: relative;
   top: 12px;
   left: 0px;
@@ -819,7 +828,7 @@ border-left: 2px solid #00ff00;
 
 #lineright {
   width: 30%;
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid black;
   position: relative;
   top: 12px;
   margin-left: 70%;
