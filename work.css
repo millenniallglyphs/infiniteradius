@@ -146,6 +146,41 @@ p {
 
 }
 
+.fouractions {
+  display: block;
+  padding: 2.5%;
+  margin-bottom: 2.5%;
+  background-color: white;
+  
+}
+
+.actionicon {
+  margin: auto;
+  width: 95px;
+}
+
+.whole {
+  width: 100%;
+  background-color: white;
+  display: block;
+  position: relative;
+  margin-bottom: 2.5%;
+  border: 2px solid black;
+  height: auto;
+}
+
+.action {
+  display: inline-flex;
+  width: 24.5%;
+  margin: auto;
+}
+
+.actiontalk {
+  padding: 5%;
+  text-align: center;
+}
+
+
 .connectdots {
   width:100%;
 }
@@ -175,6 +210,26 @@ p {
 }
 
 
+.leverage {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+.lineup {
+  height: 80px;
+  width: 0px;
+  border-left: 2px solid black;
+  margin: auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.agora {
+  font-family: 'Inknut Antiqua', serif;
+  width: 100px;
+  margin: auto;
+  text-align: center;
 }
 
 .workings {
