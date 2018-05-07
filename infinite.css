@@ -223,6 +223,14 @@ right: 0;
     margin-top: 2%;
 }
 
+#agora {
+  background-image: url(IMAGES/agora-thumbnail.jpg)
+}
+
+#fullbleed {
+  background-image: url(IMAGES/opensource%20design.jpg)
+}
+
 #market {
   background-image: url(IMAGES/DAT04.jpg);
 }
