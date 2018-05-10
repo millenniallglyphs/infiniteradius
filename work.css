@@ -210,6 +210,9 @@ p {
   margin-top: 2.5%;
 }
 
+#tippy {
+  margin-top: 55px;
+}
 
 .connectdots {
   width:100%;
@@ -288,6 +291,10 @@ p {
   margin-top: 2.5%;
 }
 
+.marge {
+  margin: 5%;
+}
+
 
 
 #don {
@@ -343,7 +350,14 @@ grid-template-columns: 100%;
   border-right: 0px;
   border-left: 0px;
 }
+  
+  .brand {
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
 }
+}
+/*404040404040404040404040404040404040404040404040404040404040404040404040*/
 @media screen and (min-width: 40em){
     .process {
   background-color: white;
@@ -382,6 +396,16 @@ grid-template-columns: 100%;
   width: 49.25%;
     
 }
+  
+  .brand {
+  display: inline-flex;
+  width: 32%;
+  margin: auto;
+}
+  
+  
+}
+/*6060606060606060606060606060606060606060606060606060606060606060*/
 @media screen and (min-width: 60em){
     .process {
   background-color: white;
