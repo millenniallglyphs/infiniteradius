@@ -178,6 +178,36 @@ p {
 .actiontalk {
   padding: 5%;
   text-align: center;
+  padding-top: 10%;
+}
+
+.brand {
+  display: inline-flex;
+  width: 32%;
+  margin: auto;
+}
+
+.brandicon {
+  margin: auto;
+  width: 187px;
+}
+
+#botposter {
+  margin-top: 2.5%;
+}
+
+#postertwo {
+  margin: 5%;
+  border-left: none;
+}
+
+#posttwo {
+  margin: 2.5%;
+  border-left: none;
+}
+
+#sculpture {
+  margin-top: 2.5%;
 }
 
 
